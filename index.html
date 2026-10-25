@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#000000">
+<title>ArnoiPhone</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="stage">
+  <div id="phone">
+    <div id="screen">
+
+      <div id="wallHome"></div>
+      <div id="wallLock"></div>
+
+      <div id="homeL"></div>
+      <div id="appL"></div>
+      <div id="lockL"><div id="lkc"></div></div>
+      <div id="pinL"></div>
+      <div id="ov"></div>
+      <div id="toast"></div>
+
+      <div id="sb">
+        <span id="sbTime">9:41</span>
+        <button id="sbHome" onclick="App.home()" aria-label="返回桌面">‹ 主页</button>
+        <span class="sbR">
+          <svg viewBox="0 0 18 12" width="18" height="12" aria-hidden="true"><rect x="0" y="8" width="3" height="4" rx="1" fill="currentColor"/><rect x="5" y="6" width="3" height="6" rx="1" fill="currentColor"/><rect x="10" y="3.5" width="3" height="8.5" rx="1" fill="currentColor"/><rect x="15" y="1" width="3" height="11" rx="1" fill="currentColor"/></svg>
+          <svg viewBox="0 0 16 12" width="16" height="12" aria-hidden="true"><path d="M8 11.2 5.7 8.6a3.6 3.6 0 0 1 4.6 0Z" fill="currentColor"/><path d="M3.8 7a6.6 6.6 0 0 1 8.4 0l-1.4 1.6a4.4 4.4 0 0 0-5.6 0Z" fill="currentColor"/><path d="M1.6 4.5a10 10 0 0 1 12.8 0l-1.4 1.6a7.8 7.8 0 0 0-10 0Z" fill="currentColor"/></svg>
+          <svg viewBox="0 0 26 12" width="26" height="12" aria-hidden="true"><rect x="1" y="1" width="21" height="10" rx="3" stroke="currentColor" stroke-opacity=".45" fill="none"/><rect x="2.5" y="2.5" width="15" height="7" rx="1.8" fill="currentColor"/><path d="M24 4.5v3a2 2 0 0 0 0-3Z" fill="currentColor" opacity=".45"/></svg>
+        </span>
+      </div>
+      <div id="island"></div>
+      <div id="hb"></div>
+
+    </div>
+  </div>
+</div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
